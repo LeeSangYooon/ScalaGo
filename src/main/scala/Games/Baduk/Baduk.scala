@@ -111,10 +111,16 @@ class Baduk(turn: Int = 1, board: Board = Board(),
             moves: Int = 0) extends Game[Move] {
   private val limit: Int = board.size * board.size * 3
 
-  val blackCaptures = b_cap
-  val whiteCaptures = w_cap
-  val movesCount = moves
+  val blackCaptures: Int = b_cap
+  val whiteCaptures: Int = w_cap
+  val movesCount: Int = moves
 
+  def isLegal(move: Move): Boolean = 
+    board.get(move) == EMPTY && 
+    (ko match
+      case Some(m: Move) => move != m
+      case _ => true) 
+  
   def get_board: Board = board
 
   def get_turn: Int = turn

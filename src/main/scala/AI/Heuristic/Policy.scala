@@ -14,7 +14,7 @@ class Policy(baduk: Baduk) {
         }
       }
     }
-    for (n <- 0 until size * size; move = Move(n % size, n / size) ; if board(n) && baduk.get_moves().contains(move))
+    for (n <- 0 until size * size; move = Move(n % size, n / size) ; if board(n) && baduk.isLegal(move))
       yield move
 
 

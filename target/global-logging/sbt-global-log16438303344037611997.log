@@ -1,0 +1,122 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.9.2 (Amazon.com Inc. Java 17.0.6)
+[debug]       Load.loadUnit: plugins took 103.939ms
+[debug]       Load.loadUnit: defsScala took 1.0246ms
+[debug] [Loading] Scanning directory C:\Users\sangy\.sbt\1.0\plugins
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\sangy\.sbt\1.0\plugins, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 20.2979 ms
+[debug]           Load.resolveProject(global-plugins) took 50.5332ms
+[debug]         Load.loadTransitive: finalizeProject(Project(id global-plugins, base: C:\Users\sangy\.sbt\1.0\plugins, plugins: List(<none>))) took 104.3174ms
+[debug] [Loading] Done in C:\Users\sangy\.sbt\1.0\plugins, returning: (global-plugins)
+[debug]       Load.loadUnit: loadedProjectsRaw took 158.9961ms
+[debug]       Load.loadUnit: cleanEvalClasses took 0.2385ms
+[debug]     Load.loadUnit(file:/C:/Users/sangy/.sbt/1.0/plugins/, ...) took 278.4129ms
+[debug]   Load.apply: load took 545.8478ms
+[debug]   Load.apply: resolveProjects took 6.7921ms
+[debug]   Load.apply: finalTransforms took 58.9086ms
+[debug]   Load.apply: config.delegates took 6.9804ms
+[debug]   Load.apply: Def.make(settings)... took 812.0683ms
+[debug]   Load.apply: structureIndex took 100.2709ms
+[debug]   Load.apply: mkStreams took 1.2798ms
+[info] loading global plugins from C:\Users\sangy\.sbt\1.0\plugins
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Load.defaultLoad until apply took 6704.0069ms
+[debug]           Load.loadUnit: plugins took 35.1284ms
+[debug]           Load.loadUnit: defsScala took 0.0035ms
+[debug] [Loading] Scanning directory C:\Users\sangy\IdeaProjects\AlphaZeroImplementation\project
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\sangy\IdeaProjects\AlphaZeroImplementation\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 1.6747 ms
+[debug]               Load.resolveProject(alphazeroimplementation-build) took 2.4528ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id alphazeroimplementation-build, base: C:\Users\sangy\IdeaProjects\AlphaZeroImplementation\project, plugins: List(<none>))) took 4.5493ms
+[debug] [Loading] Done in C:\Users\sangy\IdeaProjects\AlphaZeroImplementation\project, returning: (alphazeroimplementation-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 7.656ms
+[debug]           Load.loadUnit: cleanEvalClasses took 0.0092ms
+[debug]         Load.loadUnit(file:/C:/Users/sangy/IdeaProjects/AlphaZeroImplementation/project/, ...) took 43.6178ms
+[debug]       Load.apply: load took 45.2853ms
+[debug]       Load.apply: resolveProjects took 0.1213ms
+[debug]       Load.apply: finalTransforms took 11.0493ms
+[debug]       Load.apply: config.delegates took 0.3967ms
+[debug]       Load.apply: Def.make(settings)... took 76.0907ms
+[debug]       Load.apply: structureIndex took 28.2635ms
+[debug]       Load.apply: mkStreams took 0.004ms
+[info] loading project definition from C:\Users\sangy\IdeaProjects\AlphaZeroImplementation\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 703.0132ms
+[debug]     Load.loadUnit: defsScala took 0.0036ms
+[debug] [Loading] Scanning directory C:\Users\sangy\IdeaProjects\AlphaZeroImplementation
+[debug]       Load.loadUnit: mkEval took 6.8892ms
+[debug] [Loading] Found root project root w/ remaining 
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 1.2688 ms
+[info] loading settings for project root from build.sbt ...
+[debug]         Load.resolveProject(root) took 3.8597ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id root, base: C:\Users\sangy\IdeaProjects\AlphaZeroImplementation, plugins: List(<none>))) took 5.9597ms
+[debug] [Loading] Done in C:\Users\sangy\IdeaProjects\AlphaZeroImplementation, returning: (root)
+[debug]     Load.loadUnit: loadedProjectsRaw took 2378.1144ms
+[debug]     Load.loadUnit: cleanEvalClasses took 54.8839ms
+[debug]   Load.loadUnit(file:/C:/Users/sangy/IdeaProjects/AlphaZeroImplementation/, ...) took 3136.9793ms
+[debug] Load.apply: load took 3139.8383ms
+[debug] Load.apply: resolveProjects took 0.1602ms
+[debug] Load.apply: finalTransforms took 12.3795ms
+[debug] Load.apply: config.delegates took 0.3464ms
+[debug] Load.apply: Def.make(settings)... took 64.9349ms
+[debug] Load.apply: structureIndex took 26.5871ms
+[debug] Load.apply: mkStreams took 0.0036ms
+[info] set current project to AlphaZeroImplementation (in build file:/C:/Users/sangy/IdeaProjects/AlphaZeroImplementation/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(shell, None, None)
+[info] sbt server started at local:sbt-server-90fddbec911d84216876
+[debug] Writing bsp connection file
+[info] started sbt server
